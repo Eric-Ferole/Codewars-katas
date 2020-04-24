@@ -14,7 +14,7 @@ arr.forEach(number => {
 
  return myNewArray.reduce((total, value) => {
      return total + value;
-  });
+  }, 0);
 }
 
 console.log(positiveSum(myArray))
